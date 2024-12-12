@@ -1,0 +1,77 @@
+
+#Formulariomain{
+    color: white;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    input,select{
+        margin: 10px;
+        width: 30%;
+        height: 30px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    }
+
+}
+h1{
+
+
+
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'jaro', sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal
+    font-size: 50px;
+    flex-wrap:wrap;
+}
+#enviar{
+    margin: 20px;
+    background-color: rgba(236, 176, 12, 0.521);
+    height: 80px;
+    width: 75px;
+    border: black;
+}
+a:visited{
+    color: white;
+}
+ul{
+    color: black ;
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    width: 70px;
+    font-size: 15px;
+    flex-wrap:wrap;
+}
+li{
+    align-items: line;
+    color:white;
+}
+body{
+    background-image: linear-gradient(135deg, #2E003E, #000000, #2E003E);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+   
+}
+
+
+
+@keyframes fanimado{
+  0%  {
+    background-position: 0%; 50%;
+  }
+    50% {
+background-position: 100% 50%;
+}
+100%{
+ background-position: 0% 50%;
+
+}
